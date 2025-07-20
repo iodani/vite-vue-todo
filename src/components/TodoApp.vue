@@ -194,6 +194,16 @@ const addTodo = () => {
   }
 };
 
+const getEmptyMessage = () => {
+  if (filter.value === "active") {
+    return "You have no earrings!";
+  } else if (filter.value === "completed") {
+    return "You have no completed tasks!";
+  } else {
+    return "You have no tasks!";
+  }
+};
+
 watch(todos, saveTodos, { deep: true });
 
 initTheme();

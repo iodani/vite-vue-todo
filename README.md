@@ -2,8 +2,6 @@
 
 This is a simple yet powerful ToDo list application, developed with Vue.js 3 (Composition API) and Vite. It allows users to manage their daily tasks in a clean, efficient, and visually pleasing way, featuring modern functionalities like data persistence and theme switching.
 
-![App Screenshot](./src/assets/app-screenshot.png)
-
 ## ✨ Key Features
 
 The application includes a comprehensive set of features for effective task management:
@@ -74,3 +72,9 @@ In the project directory, you can run the following commands:
 *   `npm run dev`: Runs the app in development mode with hot-reloading.
 *   `npm run build`: Builds the app for production to the `dist` folder.
 *   `npm run preview`: Locally serves the production build for previewing.
+
+## 🖼️ App Preview
+
+The application features a clean, minimalist interface with support for both light and dark modes.
+
+![App Screenshot](./src/assets/app-screenshot.png)
